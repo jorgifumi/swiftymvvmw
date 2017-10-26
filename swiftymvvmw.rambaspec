@@ -12,7 +12,7 @@ code_files:
 - {name: View Controllers/ViewController.swift, path: Code/ViewControllers/viewcontroller.swift.liquid}
 
 # ViewModel layer
-- {name: View Models/Presenter.swift, path: Code/ViewModels/viewmodel.swift.liquid}
+- {name: View Models/ViewModel.swift, path: Code/ViewModels/viewmodel.swift.liquid}
 
 # Wireframe layer
 - {name: Wireframe/Wireframe.swift, path: Code/Wireframe/wireframe.swift.liquid}
