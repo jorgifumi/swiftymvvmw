@@ -1,0 +1,26 @@
+//
+//  {{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import UIKit
+
+protocol {{ module_info.name }}WireframeType {
+
+}
+
+final class {{ module_info.name }}Wireframe {
+
+private unowned let navigationController: UINavigationController
+
+    init(navigationController: UINavigationController) {
+        self.navigationController = navigationController
+    }
+}
+
+extension {{ module_info.name }}Wireframe: {{ module_info.name }}WireframeType {
+
+}
